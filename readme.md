@@ -9,13 +9,19 @@ git clone https://github.com/nildiert/concatenate_excel_files.git && cd concaten
 * create a virtual env
 
 ```
-python -m venv env
+python3 -m venv env
+```
+
+* Activate the environment 
+
+```
+source env/bin/activate
 ```
 
 * Install dependencies
 
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 * Create data directory
